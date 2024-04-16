@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+ background-color: hsl(47, 88%, 63%);
+ font-family: "Figtree", sans-serif;
+ margin-top: 200px;
+}
+
+
+.container {
+ max-width: 390px;
+ margin: auto;
+ border: 1px solid black;
+ border-radius: 22px;
+ background-color: hsl(0, 0%, 100%);
+ padding: 25px;
+ box-shadow: 10px 10px;
+}
+
+.illustration {
+ width: 100%;
+ border-radius: 15px;
+}
+
+button {
+ width: 93px;
+ margin-top: 20px;
+ background-color: hsl(47, 88%, 63%);
+ border: none;
+ border-radius: 8px;
+ color: hsl(0, 0%, 7%);
+ font-size: 16px;
+ font-weight: 800;
+ padding: 9px;
+}
+
+.date {
+ font-size: 16px;
+ font-weight: 500;
+}
+
+.title {
+ font-size: 28px;
+ font-weight: 800;
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.description {
+ color: hsl(0, 0%, 50%);
+ font-size: 18px;
+ line-height: 25px;
+}
+
+.id {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+
+.id-avatar {
+ height: 40px;
+ width: 40px;
+}
+
+.id-name {
+ padding-left: 10px;
+ font-size: 16px;
+ font-weight: 800;
+}
+
+
+/* FOOTER */
+footer {
+ margin-top: 15px;
+}
+.attribution { 
+ font-size: 11px; 
+ text-align: center; 
+}
+
+.attribution a { 
+ color: hsl(228, 45%, 44%); 
+}
